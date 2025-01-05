@@ -11,6 +11,7 @@ if [ "$DATABASE" = "postgres" ]; then
 fi
 
 # Apply migrations
+python manage.py makemigrations
 python manage.py migrate
 
 # Execute the command passed to the container

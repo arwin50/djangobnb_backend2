@@ -1,4 +1,4 @@
-FROM python:3.14.0a3-bullseye
+FROM python:3.12.8-slim-bullseye
 
 WORKDIR /usr/src/djangobnb_backend
 
